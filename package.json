@@ -1,0 +1,27 @@
+{
+  "name": "cards-sorting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrien-supizet/cards-sort.git"
+  },
+  "author": "Adrien Supizet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrien-supizet/cards-sort/issues"
+  },
+  "homepage": "https://github.com/adrien-supizet/cards-sort#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  },
+  "dependencies": {
+    "hapi": "^17.6.4"
+  }
+}
